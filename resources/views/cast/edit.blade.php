@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title')
-Halaman Edit
+Halaman Edit Cast
 @endsection
 
 @section('content')

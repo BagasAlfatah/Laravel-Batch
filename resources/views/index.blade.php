@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>
-<body>
-    <h1>Sanbercode</h1>
+@extends('layout.master')
+
+@section('title')
+    Halaman utama
+@endsection
+
+
+@section('content')
+<h1>Sanbercode</h1>
     <h2>sosial media developer santai berkualitas</h2>
 
     <p>belajar dan berbagi agar hidup ini semakin santai berkualitas</p>
@@ -26,5 +26,5 @@
         <li>2. mendaftar di <a href="/register">Form signup</a></li>
         <li>3. selesai! </li>
     </ul>
-</body>
-</html>
+@endsection
+
